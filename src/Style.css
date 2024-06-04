@@ -1,0 +1,93 @@
+/* General Styles */
+html {
+    border-left: 5px solid lightgray;
+  }
+  
+  body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center; /* Center align text */
+  }
+  
+  header, main, footer {
+    padding: 1rem 2rem;
+  }
+  
+  /* Header Styles */
+  header h1 {
+    color: tomato;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 1.5rem;
+    color: gray;
+    margin: 0.5rem 0; /* Add margin to space out elements */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center; /* Center the nav items */
+    gap: 1rem; /* Space between nav items */
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list a {
+    color: lightgray;
+    text-decoration: none;
+  }
+  
+  /* Main Styles */
+  main img {
+    width: 100%;
+  }
+  
+  main article {
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  main article h2 {
+    font-size: 2rem;
+  }
+  
+  main article p::first-letter {
+    font-size: 2em;
+    color: lightgray;
+  }
+  
+  .read-more {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    color: tomato;
+    text-decoration: none;
+  }
+  
+  /* Footer Styles */
+  footer .nav-list {
+    display: flex;
+    justify-content: center; /* Center the nav items */
+    gap: 1rem; /* Space between nav items */
+  }
+  
+  footer .nav-list a {
+    color: tomato;
+  }
+  
+  footer p {
+    color: lightgray;
+    margin-top: 2rem; /* Add margin to space out elements */
+  }
+  
+ 
